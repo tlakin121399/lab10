@@ -1,0 +1,24 @@
+'''
+author: Tim Lakin
+KUID:3076375
+date: 11/15/2021
+lab10
+last modified: 11/15/2021
+classes
+'''
+
+from circle import Circle
+
+def user_circle():
+	print('Enter information for Circle:')
+	radius=input('Enter radius of Circle:')
+	x_pos=input('Enter X position:')
+	y_pos=input('Enter Y position:')
+
+def print_circle_info(circ, name='Circle'):
+	pass
+
+
+def main():
+	pass
+

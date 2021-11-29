@@ -10,15 +10,30 @@ classes
 from circle import Circle
 
 def user_circle():
-	print('Enter information for Circle:')
-	radius=input('Enter radius of Circle:')
+	print('Enter information for Circle1:')
+	radius=input('Enter radius of Circle1:')
 	x_pos=input('Enter X position:')
 	y_pos=input('Enter Y position:')
+	print('Enter information for Circle2:')
+	radius2=input('Enter radius of Circle2:')
+	x_pos2=input('Enter X position:')
+	y_pos2=input('Enter Y position:')
 
 def print_circle_info(circ, name='Circle'):
-	pass
+	user_circle()
+	print("circle one radius")
+	print(radius)
+	print("circle two radius")
+	print(radius2)
+	print("x and y position of circle one")
+	print(x_pos)
+	print(y_pos)
+	print("x and y position of circle two")
+	print(x_pos2)
+	print(y_pos2)
 
 
 def main():
-	pass
+	user_circle()
+	print_circle_info(circ, name="Circle")
 
